@@ -48,6 +48,7 @@
 
     h1 {
       margin-bottom: 20px;
+      text-align: center;
     }
 
     p {
@@ -170,4 +171,50 @@
     input[type="submit"]:hover {
       background-color: #333;
     }
+
+    .blog {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .post {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      width: calc(33.33% - 2rem);
+      margin-bottom: 2rem;
+    }
+    
+    .post h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    
+    .post p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    
+    .read-more {
+      display: inline-block;
+      background-color: #ccc;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+    }
+    
+    @media (max-width: 1023px) {
+      .post {
+        width: calc(50% - 2rem);
+      }
+    }
+    
+    @media (max-width: 767px) {
+      .post {
+        width: 100%;
+      }
+    }
+    
   </style>

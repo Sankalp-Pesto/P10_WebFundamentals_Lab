@@ -1,12 +1,10 @@
 <style>
     /* add CSS styles for navbar, hero, and other sections here */
     @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
-
     @font-face {
       font-family: Sono;
       src: url(https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap);
     }
-
     body {
       font-family: 'Sono', sans-serif;
     }
@@ -48,6 +46,7 @@
 
     h1 {
       margin-bottom: 20px;
+      text-align: center;
     }
 
     p {
@@ -170,4 +169,37 @@
     input[type="submit"]:hover {
       background-color: #333;
     }
+    /* blog */
+
+    .blog {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+    }
+    
+    .post {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 1rem;
+    }
+    
+    .post h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    
+    .post p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    
+    .read-more {
+      display: inline-block;
+      background-color: #ccc;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+    }
+    
   </style>

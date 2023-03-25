@@ -67,6 +67,28 @@ Expectation: This section talks about usage of `Making websites accessible` usag
 - Best practices CSS: Organize styles into different files for separation of concerns
 - Best practices CSS: Meaningful names for classes and ids
 
+
+ ### WithoutResponsiveness
+- User understands how it looks like without responsiveness
+
+ ### How to use Grid
+- User understands how to use grid in styling
+
+ ### Media Queries
+- User understands how to use grid and how to make it responsive using media queries
+
+
+ ### Flex Lab
+- User understands how to use flex and how to make it responsive using media queries
+
+ `Home work to learner here:` Can you write blog explaining each out your project and skills and make it responsive
+  ### Deploy to Github Pages
+- User understands how to to make his website live using github pages
+- https://www.freecodecamp.org/news/publish-your-website-netlify-github/
+
+ `Home work to learner here:` Can you write blog explaining each out your project in your current company or college and add relevant skills and make it responsive in the end
+
+
  ### Curated Resources for post-reads
 ### Media Elements post reads
 
